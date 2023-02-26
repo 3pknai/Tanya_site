@@ -1,0 +1,13 @@
+<include iostream>
+using namespace std;
+int main() {
+    int a, b, c;
+    std::cout << "Введите рост трёх спортсменов" << "\n";
+    std::cin >> a >> b >> c;
+    if ((a < b) && (b < c)) {
+        cout << "По росту." << endl;
+    } else {
+        cout << "Не по росту!" << endl;
+    }
+    return 0;
+}
